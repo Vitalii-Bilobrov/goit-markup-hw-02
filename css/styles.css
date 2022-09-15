@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  font-family: Roboto, sans-serif;
+  color: #212121;
+}
+[type="button"] {
+  cursor: pointer;
+}
+.company-name {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.company-name-blue{
+    color:#2196F3;
+}
