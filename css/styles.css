@@ -11,6 +11,7 @@
   --color-mainWhite:#FFFFFF;
   --color-veryDark:#212121;
   --color-greatLight:#EEEEEE;
+  --color-ghostWhite:#F5F4FA;
 }
 .header{
   display: flex;
@@ -38,12 +39,6 @@ font-size: 14px;
 line-height: 1.1;
 letter-spacing: 0.02em;
 }
-.button {
-  font-family: "Roboto", sans-serif;
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
-}
 .button:hover, button:focus{
   color:var(--color-mainWhite);
   background-color: var(--color-mainBlue);
@@ -59,7 +54,7 @@ ul{
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 1,2;
+  line-height: 1.2;
 }
 .company-name-blue{
   color:var(--color-mainBlue);
@@ -67,7 +62,7 @@ ul{
 nav{
 font-weight: 500;
 font-size: 14px;
-line-height: 1,1;
+line-height: 1.1;
 letter-spacing: 0.02em;
 }
 .gray-links{
@@ -85,42 +80,43 @@ color:var(--color-lightGray);
 .motto{
 font-weight: 900;
 font-size: 44px;
-line-height: 1,4;
+line-height: 1.4;
 color: var(--color-mainWhite);
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 }
-.button{
-  height: 50px;
-  width: 216px;
+.button-studio{
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 700;
-font-size: 16px;
-line-height: 1,9;
-background: var(--color-mainBlue);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-color: var(--color-mainWhite);
-letter-spacing: 0.06em;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border:none;
+  background: var(--color-mainBlue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--color-mainWhite);
+  width: 216px;
+  height: 50px;
 }
-.button-porfolio{
-font-weight: 500;
-line-height: 1.6;
-text-align: center;
-letter-spacing: 0.03em;
-}
+
 .advantages{
   display: flex;
 }
 .advantages-main{
 font-weight: 700;
 font-size: 14px;
-line-height: 1,4;
+line-height: 1.4;
 letter-spacing: 0.03em;
 }
 .advantages-description{
 font-size: 14px;
-line-height: 1,7;
+line-height: 1.7;
 color: var(--color-lightGray);
 }
 .work{
@@ -133,17 +129,25 @@ color: var(--color-lightGray);
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 }
+.h2{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--color-veryDark);
+}
 .team-member-name{
 font-weight: 500;
 font-size: 16px;
-line-height: 1,2;
+line-height: 1.2;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--color-veryDark);
 }
 .team-member-position{
 font-size: 16px;
-line-height: 1,2;
+line-height: 1.2;
 color: var(--color-lightGray);
 text-align: center;
 }
@@ -151,14 +155,22 @@ text-align: center;
 .buttons{
   display: flex;
 }
+.button-porfolio{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+background-color: var(--color-ghostWhite);
+color: var(--color-veryDark);
+height: 26px;
+border-radius: 4px;
+border: none;
+}
 .projects{
   display: flex;
-}
-.buttons button{
-font-weight: 500;
-line-height: 1,6;
-text-align: center;
-padding: 6px 22px;
 }
 .projects li{
  width: 370px;
@@ -176,7 +188,7 @@ line-height: 2;
 letter-spacing: 0.06em;
 }
 .projects-style{
-line-height: 1,9;
+line-height: 1.9;
 color: var(--color-lightGray);
 }
 .projects-type{
@@ -193,13 +205,13 @@ color: var(--color-lightGray);
 .address{
 font-style: normal;
 font-size: 14px;
-line-height: 1,7;
+line-height: 1.7;
 color: var(--color-mainWhite);
 }
 address .email, address .tel{
   font-style: normal;
   font-size: 14px;
-  line-height: 1,7;
+  line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
 .link:hover{
