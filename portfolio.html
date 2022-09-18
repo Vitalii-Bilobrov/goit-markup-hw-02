@@ -1,21 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
 </head>
 
-<body>
+<body class="body">
   <header class="header">
     <!--Верхня лінія-->
     <nav>
@@ -23,99 +19,100 @@
         <span class="company-name-blue company-name">Web</span><span class="company-name">Studio</span>
       </a>
       <ul class="nav-links">
-        <li><a class="black-links link" href="index.html" target="_self">Студія</a></li>
-        <li><a class="black-links link" href="portfolio.html" target="_self">Портфоліо</a></li>
+        <li><a class="black-links link " href="index.html" target="_self">Студія</a></li>
+        <li><a class="black-links link current-page-link" href="portfolio.html" target="_self">Портфоліо</a></li>
         <li><a class="black-links link" href="#" target="_self">Контакти</a></li>
       </ul>
     </nav>
     <ul class="tel-email">
       <li>
-        <a class="gray-links link email"  href="mailto:info@devstudio.com">
+        <a class="gray-links link email" href="mailto:info@devstudio.com">
           info@devstudio.com</a>
       </li>
       <li><a class="gray-links link" href="tel:+380961111111"> +380-96-111-11-11</a></li>
     </ul>
   </header>
   <main>
+    <h1 class="toHide">проекти</h1>
     <ul class="buttons">
-      <li><button  type="button">Усі</button></li>
-      <li><button type="button">Веб-сайти</button></li>
-      <li><button  type="button">Додатки</button></li>
-      <li><button  type="button">Дизайн</button></li>
-      <li><button  type="button">Маркетинг</button></li>
+      <li><button class="button button-porfolio" type="button">Усі</button></li>
+      <li><button class="button button-porfolio"" type="button">Веб-сайти</button></li>
+      <li><button class="button button-porfolio"" type="button">Додатки</button></li>
+      <li><button class="button button-porfolio"" type="button">Дизайн</button></li>
+      <li><button class="button button-porfolio"" type="button">Маркетинг</button></li>
     </ul>
     <section>
-      <h1 class="toHide">проекти</h1>
+
       <ul class="projects">
         <li><a href="#">
             <img src="images/project_1.jpg" alt="picture1" width="370" height="294" />
             <div>
-              <h3>Технокряк</h3>
-              <p>Веб-сайт</p>
+              <h2 class="projects-name">Технокряк</h2>
+              <p class="projects-type">Веб-сайт</p>
             </div>
           </a>
         </li>
         <li><a href="#">
             <img src="images/project_2.jpg" alt="picture2" width="370" height="294" />
             <div>
-              <h3>Постер New Orlean vs Golden Star</h3>
-              <p>Дизайн</p>
+              <h2 class="projects-name">Постер New Orlean vs Golden Star</h2>
+              <p class="projects-type">Дизайн</p>
             </div>
           </a>
         </li>
         <li><a href="#">
             <img src="images/project_3.jpg" alt="picture3" width="370" height="294" />
             <div>
-              <h3>Ресторан Seafood</h3>
-              <p>Додаток</p>
+              <h2 class="projects-name">Ресторан Seafood</h2>
+              <p class="projects-type">Додаток</p>
             </div>
           </a>
         </li>
         <li><a href="#">
             <img src="images/project_4.jpg" alt="picture4" width="370" height="294" />
             <div>
-              <h3>Проєкт Prime</h3>
-              <p>Маркетинг</p>
+              <h2 class="projects-name">Проєкт Prime</h2>
+              <p class="projects-type">Маркетинг</p>
             </div>
           </a>
         </li>
         <li><a href="#">
             <img src="images/project_5.jpg" alt="picture5" width="370" height="294" />
             <div>
-              <h3>Проєкт Boxes</h3>
-              <p>Додаток</p>
+              <h2 class="projects-name">Проєкт Boxes</h2>
+              <p class="projects-type">Додаток</p>
             </div>
           </a>
         </li>
         <li><a href="#">
             <img src="images/project_6.jpg" alt="picture6" width="370" height="294" />
             <div>
-              <h3>Inspiration has no Borders</h3>
-              <p>Веб-сайт</p>
+              <h2 class="projects-name">Inspiration has no Borders</h2>
+              <p class="projects-type">Веб-сайт</p>
             </div>
           </a>
         </li>
         <li><a href="#">
             <img src="images/project_7.jpg" alt="picture7" width="370" height="294" />
             <div>
-              <h3>Видання Limited Edition</h3>
-              <p>Дизайн</p>
+              <h2 class="projects-name">Видання Limited Edition</h2>
+              <p class="projects-type">Дизайн</p>
             </div>
           </a>
         </li>
         <li><a href="#">
             <img src="images/project_8.jpg" alt="picture8" width="370" height="294" />
             <div>
-              <h3>Проєкт LAB</h3>
-              <p>Маркетинг</p>
+              <h2 class="projects-name">Проєкт LAB</h2>
+              <p class="projects-type">Маркетинг</p>
             </div>
           </a>
         </li>
         <li><a href="#">
             <img src="images/project_9.jpg" alt="picture9" width="370" height="294" />
             <div>
-              <h3>Growing Business</h3>
-              <p>Додаток</p>
+              <h2 class="projects-name">Growing Business</h2>
+              <p class="projects-type">Додаток</p>
             </div>
           </a>
         </li>
@@ -130,7 +127,8 @@
     <address>
       <ul>
         <li>
-          <a class="link address" href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000001%2C30.538092&z=17"
+          <a class="link address"
+            href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000001%2C30.538092&z=17"
             target="_blank" rel="noopener noreferrer">
             м. Київ, пр-т Лесі Українки, 26
           </a>

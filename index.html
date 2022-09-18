@@ -8,13 +8,9 @@
   <title>Студія</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
 </head>
 
 <body class="body">
@@ -25,7 +21,7 @@
         <span class="company-name-blue company-name">Web</span><span class="company-name">Studio</span>
       </a>
       <ul class="nav-links">
-        <li><a class="black-links link" href="index.html" target="_self">Студія</a></li>
+        <li><a class="black-links link current-page-link" href="index.html" target="_self">Студія</a></li>
         <li><a class="black-links link" href="portfolio.html" target="_self">Портфоліо</a></li>
         <li><a class="black-links link" href="#" target="_self">Контакти</a></li>
       </ul>
@@ -42,7 +38,7 @@
     <!--Шапка-->
     <section class="hero">
       <h1 class="motto">Ефективні рішення для вашого бізнесу</h1>
-      <button  type="button" class="button">Замовити послугу</button>
+      <button type="button" class="button">Замовити послугу</button>
     </section>
     <!--Наші особливості-->
     <section>
@@ -79,7 +75,7 @@
     </section>
     <!--Чим ми займаємось-->
     <section>
-      <h2>Чим ми займаємося</h2>
+      <h2 class="toHide">Чим ми займаємося</h2>
       <ul class="work">
         <li>
           <img src="./images/computer_1p.jpg" alt="work with computer" width="370" height="294" />
@@ -96,25 +92,25 @@
     <section>
       <h2>Наша команда</h2>
       <ul class="team">
-        <li>
+        <li class="card">
           <img src="./images/member1_1p.jpg" alt="photo of team member" width="270" height="260" />
-          <h3>Ігор Дем'яненко</h3>
-          <p>Product Designer</p>
+          <h3 class="team-member-name">Ігор Дем'яненко</h3>
+          <p class="team-member-position">Product Designer</p>
         </li>
-        <li>
+        <li class="card">
           <img src="./images/member2_1p.jpg" alt="photo of team member" width="270" height="260" />
-          <h3>Ольга Рєпіна</h3>
-          <p>Frontend Developer</p>
+          <h3 class="team-member-name">Ольга Рєпіна</h3>
+          <p class="team-member-position">Frontend Developer</p>
         </li>
-        <li>
+        <li class="card">
           <img src="./images/member3_1p.jpg" alt="photo of team member" width="270" height="260" />
-          <h3>Микола Тарасов</h3>
-          <p>Marketing</p>
+          <h3 class="team-member-name">Микола Тарасов</h3>
+          <p class="team-member-position">Marketing</p>
         </li>
-        <li>
+        <li class="card">
           <img src="./images/member4_1p.jpg" alt="photo of team member" width="270" height="260" />
-          <h3>Михайло Єрмаково</h3>
-          <p>UI Designer</p>
+          <h3 class="team-member-name">Михайло Єрмаково</h3>
+          <p class="team-member-position">UI Designer</p>
         </li>
       </ul>
     </section>
@@ -127,7 +123,8 @@
     <address>
       <ul>
         <li>
-          <a class="link address" href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000001%2C30.538092&z=17"
+          <a class="link address"
+            href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000001%2C30.538092&z=17"
             target="_blank" rel="noopener noreferrer">
             м. Київ, пр-т Лесі Українки, 26
           </a>
